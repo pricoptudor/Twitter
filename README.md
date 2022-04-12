@@ -1,6 +1,5 @@
-# Twitter Application ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/90)
+# Twitter Application ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
 
-## Don't forget to add messages!
 
 ### Use cases:
 
@@ -8,8 +7,8 @@
 #### User
 
 ##### <img src="https://user-images.githubusercontent.com/41987455/158020467-fa54dd6e-8771-44f8-acce-f3a0a94c66c6.png" width="15" height="15"> `Login`
-##### `If credentials correct => JSON with user details.`
-##### `Any request when user is not logged in => '/users'.`
+##### `Any request when user is not logged in => login form.`
+##### `After login, please use swagger to test other requests!`
 ##### `User logged in until app is restarted or another login is made.`
 
 ##### <img src="https://user-images.githubusercontent.com/41987455/158020467-fa54dd6e-8771-44f8-acce-f3a0a94c66c6.png" width="15" height="15"> `Register`
@@ -20,7 +19,7 @@
 
 ##### <img src="https://user-images.githubusercontent.com/41987455/158020467-fa54dd6e-8771-44f8-acce-f3a0a94c66c6.png" width="15" height="15"> `Follow`
 ##### Exceptions: `Already followed`
-##### Reminder: `mesaj Successfully followed`
+##### Reminder: `Successfully followed`
 
 ##### <img src="https://user-images.githubusercontent.com/41987455/158020467-fa54dd6e-8771-44f8-acce-f3a0a94c66c6.png" width="15" height="15"> `Unfollow`
 ##### Exceptions: `Not followed`
@@ -46,7 +45,8 @@
 ##### <img src="https://user-images.githubusercontent.com/41987455/158020467-fa54dd6e-8771-44f8-acce-f3a0a94c66c6.png" width="15" height="15"> `Repost`
 ##### Exceptions: `Post not found`
 
-##### `Get mentions`
+##### <img src="https://user-images.githubusercontent.com/41987455/158020467-fa54dd6e-8771-44f8-acce-f3a0a94c66c6.png" width="15" height="15"> `Get mentions`
+##### Exceptions: `User not mentioned`
 
 
 #### Like
