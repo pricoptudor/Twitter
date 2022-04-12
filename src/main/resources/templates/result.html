@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Handling Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>User successfully logged in!</h1>
+<p th:text="'Username: ' + ${greeting.username}" />
+<p th:text="'Password: ' + ${greeting.password}" />
+<a href="/swagger-ui/index.html">Open the swagger interface</a>
+</body>
+</html>
